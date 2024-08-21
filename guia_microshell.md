@@ -1,4 +1,4 @@
-1 º PONER LIBRERIAS
+1 º PONER LIBRERIAS 
 2 º HACEMOS EL MAIN
 	int fd[2];
 	int i;
