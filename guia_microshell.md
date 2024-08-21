@@ -1,10 +1,12 @@
 1 º PONER LIBRERIAS  
 2 º HACEMOS EL MAIN  
+```c
 	int fd[2];  
 	int i;  
 	int tmp_fd;  
 	casteamos a void el argc;  
 	y hacemos un dup tmp_fd = dup(0);  
+ ```
 3 º ITERAMOS argv[i] && argv[i + 1]
 4 º MOVEMOS ARGV UNO PARA DELANTE Y PONEMOS i a 0
 5 º ITERAMOS HASTA LLEGAR A PIPE NULO O PUNTO Y COMA
