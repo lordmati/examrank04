@@ -28,7 +28,8 @@
 	8.2 º en el hijo hacemos un dup2 del fd[1] a la salida  
 		cerramos ambos fd  
 		y ejecutamos  
-	8.3 º en el padre cerramos el fd[1],  
+	8.3 º en el padre cerramos el fd[1],
+		cerramos el tmp_fd  
 		y el tmp_fd lo igualamos al fd[0]
  ``` 
 9 º POR ULTIMO AFUERA DEL BUCLE PRINCIPAL CERRAMOS EL tmp_fd.  
